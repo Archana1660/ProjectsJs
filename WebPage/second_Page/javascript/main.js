@@ -1,5 +1,6 @@
 
 const menuList = document.querySelector('.menu-list');
+const bodyScroll = document.querySelector('body');
 const burgerMenu = document.querySelector('.burger-icon');
 const links = document.querySelectorAll('.menu-list ul li');
 const firstLine = document.querySelector('.firstLine');
@@ -8,6 +9,7 @@ const thirdLine = document.querySelector('.thirdLine');
 
 burgerMenu.addEventListener('click', () => {
     menuList.classList.toggle('open');
+    bodyScroll.classList.toggle('forScroll');
 })
 
 burgerMenu.addEventListener('click', () => {
