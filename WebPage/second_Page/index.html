@@ -31,6 +31,7 @@
         <div class="banner-content">
             <h1>I'm Jonathan Doe.</h1>
             <p>I'm a Manila based <span class="hightlights">graphic designer, illustrator</span> and <span class="hightlights">web designer</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <span class="hightlights">start scrolling</span> and learn more <span class="hightlights">about me</span>.</p>
+            <hr>
             <ul class="media">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -221,12 +222,65 @@
             
         </div>
         <div class="row">
-            <div class="details">
-                
-            </div>
+            <form action="" method="POST" id="contactForm" name="contactForm">
+                <div>
+                    <label for="contactName">Name<span>*</span></label>
+                    <input type="text" id="contactName" name="contactName" value="" />
+                </div>
+                <div>
+                    <label for="contactEamil">Email<span>*</span></label>
+                    <input type="text" id="contactEamil" name="contactEamil" value="" />
+                </div>
+                <div>
+                    <label for="contactSubject">Subject<span>*</span></label>
+                    <input type="text" id="contactSubject" name="contactSubject" value="" />
+                </div>
+                <div>
+                    <label for="contactMessage">Message<span>*</span></label>
+                    <textarea cols="50" row="15" id="contactMessage" name="contactMessage"></textarea>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <aside>
+                <div class="addressPhone">
+                    <h4 class="header-text">Address and Phone</h4>
+                    <p class="address">Jonathan Doe<br>
+                        1600 Amphitheatre Parkway<br>
+                        Mountain View, CA 94043 US<br>
+                        (123) 456-7890</p>
+                </div>
+                <div class="tweet">
+                    <h4 class="tweet-header">Latest Tweets</h4>
+                    <div class="tweet-content">
+                        <p class="tweet-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum <a href="#">http://t.co/CGIrdxIlI3</a></p>
+                        <a href="#">2 Days Ago</a>
+                    </div>
+                    <div class="tweet-content">
+                        <p class="tweet-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi <a href="#">http://t.co/CGIrdxIlI3</a></p>
+                        <a href="#">3 Days Ago</a>
+                    </div>
+                </div>
+            </aside>
         </div>
     </section>
     <footer class="container">
+        <div class=" social-media">
+            <div class="up-arrow">
+                <a href="#">
+                    <i class="icon-up-open"></i>
+                </a>
+            </div>
+            <ul class="media">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+            <p>© Copyright 2014 CeeVee Design by Styleshout</p>
+        </div>
         
     </footer>
     <script src="javascript/main.js"></script>
