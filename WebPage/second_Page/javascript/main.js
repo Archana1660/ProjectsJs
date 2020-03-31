@@ -17,3 +17,11 @@ burgerMenu.addEventListener('click', () => {
     secondLine.classList.toggle('secondLineChange');
     thirdLine.classList.toggle('thirdLineChange');
 })
+
+document.addEventListener('scroll', window, function (event) {
+    // get current scroll position  
+    var currentScrollPos =    window.scrollTop;
+    if(currentScrollPos >= 100) {
+        // show your div
+    }
+}, false);

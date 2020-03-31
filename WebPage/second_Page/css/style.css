@@ -113,11 +113,16 @@ img {
     color: #fff;
 }
 
+hr {
+    width: 60%;
+    color: #ccc;
+    margin: 0 auto;
+}
+
 .media {
     font-size: 30px;
     margin: 0 auto;
     padding: 24px 0px;
-    border-top: 1px solid #fff;
     width: 70%;
 }
 
@@ -403,6 +408,138 @@ img {
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 35px;
+    margin-bottom: 50px;
+}
+
+/*form*/
+form {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+form div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+label {
+    width: 25%;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label span {
+    color: #11ABB0;
+}
+
+label:nth-child(4) {
+    width: 26%;
+}
+
+input, textarea {
+    background-color: #373233;
+    border: none;
+    width: 60%;
+    height: 60px;
+}
+
+textarea {
+    height: 210px;
+}
+
+button {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-left: 25%;
+    padding: 12px 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ aside {
+     width: 30%;
+ }
+ 
+aside h4{
+    color: #fff;
+    font-size: 1.2rem !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-bottom: 9px;
+}
+
+aside p {
+    color: #827b7d;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.tweet-content {
+    margin: 23px 0px;
+}
+
+.tweet-text a {
+    color: #11ABB0;
+    transition: color 1s ease;
+}
+
+.tweet-text a:hover {
+    color: #fff;
+}
+
+.tweet-content a:nth-child(2) {
+    color: #827b7d;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #0f0f0f; 
+    color: #525252;
+    position: relative;
+}
+.up-arrow a {
+    color: #fff;
+}
+
+footer a {
+    color: #525252;
+}
+
+.up-arrow {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -10%;
+    left: 49%;
+    transform: translate(-49%, 10%);
+    background: #525252;
+}
+
+.social-media {
+    color: #525252;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.social-media p {
+    color: #525252;
 }
 
 @media (max-width: 1180px) {
@@ -609,5 +746,29 @@ img {
         color: #fff;
         display: block;
         letter-spacing: 2px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form div {
+        flex-direction: column;
+    }
+
+    input, textarea {
+        width: 100%
+    }
+
+    button {
+        margin-left: 0
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .social-media {
+        width: 100%;
     }
 }
