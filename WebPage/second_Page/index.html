@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="opaque">
             <ul class="menu-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contactUs">Contact</a></li>
             </ul>
           
         </nav>
@@ -27,7 +27,7 @@
         </ul>
         
     </header>
-    <section class="container banner">
+    <section id="banner" class="container">
         <div class="banner-content">
             <h1>I'm Jonathan Doe.</h1>
             <p>I'm a Manila based <span class="hightlights">graphic designer, illustrator</span> and <span class="hightlights">web designer</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <span class="hightlights">start scrolling</span> and learn more <span class="hightlights">about me</span>.</p>
@@ -47,7 +47,7 @@
             </a>
         </div>
     </section>
-    <section class="container about">
+    <section id="about" class="container">
         <div class="row">
             <div class="left-content">
                 <img src="images/profilepic.jpg" alt="profile-pic"/>
@@ -66,12 +66,12 @@
                             anyone@website.com<br>
                         </p>
                     </div>
-                    <a href=""><i class="fa fa-download"></i>Download Resmue</a>
+                    <a href="#"><i class="fa fa-download"></i>Download Resmue</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container education">
+    <section id="education" class="container">
         <div class="row">
             <div class="left-content">
                 <h3><span>EDUCATION</span></h3>
@@ -140,53 +140,110 @@
             </div>
         </div>
     </section>
-    <section class="container works">
+    <section id="works" class="container">
         <h4>CHECK OUT SOME OF MY WORKS.</h4>
         <div class="row">
            
             <div class="work-products">
                 <a href="#">
-                    <img src="images/coffee.jpg" alt="coffee" />
+                    <img class="image" src="images/coffee.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Coffee</p>
+                            <p>illustration</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/console.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Console</p>
+                            <p>Web Design</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/farmerboy.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Farmerboy</p>
+                            <p>Branding</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/girl.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Girl</p>
+                            <p>Photography</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
+                    
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/into-the-light.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Into the light</p>
+                            <p>Photography</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/judah.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Jugah</p>
+                            <p>Web Designing</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/origami.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Origami</p>
+                            <p>Illustration</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
             <div class="work-products">
                 <a href="#">
                     <img src="images/retrocam.jpg" alt="coffee" />
+                    <div class="overlay">
+                        <div class="work-details">
+                            <p>Retocam</p>
+                            <p>Web Development</p>
+                        </div>
+                        <div class="text">+</div>
+                    </div>
                 </a>
             </div>
         </div>
     </section>
-    <section class="container unde">
+    <section id="unde" class="container">
         <div class="row">
             <div class="left-content ">
                 <img src="images/Untitled.png" alt="pic"/>
@@ -198,7 +255,7 @@
             </div>
         </div>
     </section>
-    <section class="container testimonials">
+    <section id="testimonials" class="container">
         <div class="row">
             <div class="left-content">
                 <img src="images/Untitled.png" alt="pic"/>
@@ -210,7 +267,7 @@
             
         </div>
     </section>
-    <section class="container contactUs">
+    <section id="contactUs" class="container">
         <div class="row">
             <div class="left-content">
                 <img src="images/Untitled.png" alt="pic"/>
@@ -239,7 +296,8 @@
                     <label for="contactMessage">Message<span>*</span></label>
                     <textarea cols="50" row="15" id="contactMessage" name="contactMessage"></textarea>
                 </div>
-                <button type="submit">SUBMIT</button>
+                <button class="submit">SUBMIT</button>
+                <img class="loader" src="./images/loader.gif"/>
             </form>
             <aside>
                 <div class="addressPhone">
@@ -266,7 +324,7 @@
     <footer class="container">
         <div class=" social-media">
             <div class="up-arrow">
-                <a href="#">
+                <a href="#banner">
                     <i class="icon-up-open"></i>
                 </a>
             </div>
