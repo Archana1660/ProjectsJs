@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Liquid Image Transition</title>
+</head>
+<body>
+    <div class="landing">
+        <div class="intro">
+            <h2>emotions</h2>
+            <p>
+                2020 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2. LinkedIn is a registered business name of LinkedIn Ireland Unlimited Company. LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.
+            </p>
+        </div>
+        <div class="distortion"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="js/hover-effect.umd.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script>
+        new hoverEffect({
+        parent: document.querySelector('.distortion'),
+        intensity: 0.5,
+        image1: 'fire1.jpg',
+        image2: 'fire2.jpg',
+        displacementImage: 'dis.png'
+    });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 10px; */
+}
+
+.distortion {
+    width: 640px;
+    height: 650px;
+}
+
+.intro {
+    align-self: center;
+}
